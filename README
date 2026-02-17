@@ -1,0 +1,65 @@
+# Proyecto 1: Generador de Presupuesto 📄
+
+Este proyecto permite calcular el costo total de un proyecto en base a las horas estimadas, el valor por hora y el plazo en días. Además, genera un **PDF personalizado** con los datos del proyecto y un diseño de plantilla.
+
+---
+
+## 🚀 Funcionalidades
+- Solicita datos del proyecto mediante entrada por teclado:
+  - Nombre del proyecto
+  - Horas estimadas
+  - Valor por hora trabajada
+  - Plazo estimado en días
+- Calcula el **costo total** del proyecto.
+- Genera un **PDF con plantilla** (`template.png`) que incluye:
+  - Nombre del proyecto
+  - Horas estimadas
+  - Valor por hora
+  - Plazo estimado
+  - Costo total
+  - Mensaje de agradecimiento
+
+---
+
+## 🛠️ Tecnologías utilizadas
+- **Python 3**
+- [fpdf](https://pypi.org/project/fpdf/) – librería para generar PDFs.
+
+---
+
+## 📂 Estructura del proyecto
+proyecto1/
+│── proyecto1.py          # Script principal
+│── template.png          # Plantilla para el PDF
+│── presupuesto.pdf       # PDF generado automáticamente
+│── README.md             # Documentación del proyecto
+
+Código
+
+---
+
+## ▶️ Cómo ejecutar
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/TUUSUARIO/proyecto1.git
+   cd proyecto1
+Instala la librería necesaria:
+
+bash
+pip install fpdf
+Ejecuta el script:
+
+bash
+python proyecto1.py
+
+
+⚠️ Notas importantes
+El archivo template.png debe estar en la misma carpeta que el script para que se genere correctamente el PDF.
+
+El PDF se guarda automáticamente como presupuesto.pdf.
+
+Puedes personalizar la plantilla (template.png) para darle tu propio estilo.
+
+
+👩‍💻 Autor
+Proyecto desarrollado por Elizabeth Duque.
